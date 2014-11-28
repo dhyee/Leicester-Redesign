@@ -1,0 +1,116 @@
+#tabs {
+    vertical-align: bottom;
+    height: 300px;
+    position: relative;
+	overflow: hidden;
+    line-height: 260%;
+}
+
+.tabs-content {
+    height: 262px;
+    width: 100%;
+    background-color: #fff;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+
+.tabs {
+    border-top: 1px solid #182540;
+	overflow: hidden;
+}
+
+.tabs a {
+    text-align: center;
+	position: relative;
+	overflow: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.tabs a:after {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	width: 21px; 
+	text-align: center; 
+	margin: 10px 10px 5px 0; 
+	color: #ffffff;
+}
+
+.tabs a:hover{
+    background-color: #fff;
+    color: #DF6948;
+}
+
+.tabs a:hover + .tabs-content {
+	display: block;
+    z-index: 5000;
+}
+
+.tabs-content:hover{
+    display: block;
+    z-index: 5000;
+}
+
+.tabsContainer{
+    padding-top: 20px;
+    margin-left: 17%;
+    margin-right: -20%;
+    height: inherit;
+}
+
+/*
+.bottomCrumb{
+    position: absolute;
+    width: inherit;
+    bottom: 0;
+    height: 35px;
+    background-color: #555;
+}
+.crumb{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+}
+*/
+
+.leftText {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333;
+}
+
+.leftLinks{
+    font-size: 16px;
+    height: inherit;
+    text-align: left;
+}
+
+.leftLinks a {
+    text-decoration: none;
+    font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.leftLinks a:link {
+    color: #DF6948;
+    text-decoration: none;
+}
+
+.leftLinks a:visited {
+    color: #DF6948;
+    text-decoration: none;
+}
+
+.leftLinks a:hover {
+    color: #0DA2DA;
+    text-decoration: none;
+}
