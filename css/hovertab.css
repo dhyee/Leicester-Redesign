@@ -3,11 +3,11 @@
     height: 300px;
     position: relative;
 	overflow: hidden;
-    line-height: 260%;
+    line-height: 250%;
 }
 
 .tabs-content {
-    height: 262px;
+    height: 265px;
     width: 100%;
     background-color: #fff;
 	overflow: hidden;
@@ -58,25 +58,11 @@
 
 .tabsContainer{
     padding-top: 20px;
-    margin-left: 17%;
-    margin-right: -20%;
+    padding-bottom: 20px;
+    margin-left: 15%;
+    margin-right: -25%;
     height: inherit;
 }
-
-/*
-.bottomCrumb{
-    position: absolute;
-    width: inherit;
-    bottom: 0;
-    height: 35px;
-    background-color: #555;
-}
-.crumb{
-    color: #fff;
-    font-weight: bold;
-    font-size: 2em;
-}
-*/
 
 .leftText {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
@@ -87,7 +73,7 @@
 
 .leftLinks{
     font-size: 16px;
-    height: inherit;
+    height: 100%;
     text-align: left;
 }
 

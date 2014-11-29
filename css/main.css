@@ -118,7 +118,7 @@ a.utWords:hover, a.otWords:hover{
 #logoContainer{
     position: relative;
     width: inherit;
-    height: 250px;
+    height: 260px;
     text-align: center;
     background-color: #1B2A48;
     background-image: linear-gradient(#2a4375 0%, #1B2A48 100%);
@@ -250,7 +250,7 @@ a.Headlines {
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    color: #0DA2DA;
+    color: #29839f;
 }
 
 a.Headlines:visited {
@@ -370,7 +370,7 @@ a.events {
 
 a.events:hover {
     text-decoration: none;
-    background-color: #FFAB91;
+    background-color: #df6948;
     color: #fff;
 }
 
